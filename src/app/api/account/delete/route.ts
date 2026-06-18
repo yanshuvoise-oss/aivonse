@@ -57,7 +57,6 @@ export async function DELETE(req: NextRequest) {
     await supabaseAdmin.from("analytics").delete().eq("profile_id", userId);
     await supabaseAdmin.from("links").delete().eq("profile_id", userId);
     await supabaseAdmin.from("subscriptions").delete().eq("profile_id", userId);
-    await supabaseAdmin.from("coupons").delete().eq("profile_id", userId);
     await supabaseAdmin.from("profiles").delete().eq("id", userId);
 
     // 3. Delete the actual authentication user record

@@ -42,7 +42,7 @@ export default function SmartLinksPage() {
       .order("created_at", { ascending: false });
 
     if (rawLinksData) {
-      const mappedLinks = rawLinksData.map(link => ({
+      const mappedLinks = rawLinksData.map((link: any) => ({
         id: link.id,
         profile_id: link.profile_id,
         slug: link.url,

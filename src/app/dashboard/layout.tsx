@@ -43,13 +43,15 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
           return;
         }
 
-        let { data: profileData, error: profileError } = await supabase
+        const { data: initialProfileData, error: profileError } = await supabase
           .from("profiles")
           .select("*")
           .eq("id", session.user.id)
           .maybeSingle();
           
         if (profileError) throw profileError;
+
+        let profileData = initialProfileData;
 
         // Auto-create profile if missing (e.g. trigger failed or account restored)
         if (!profileData) {
