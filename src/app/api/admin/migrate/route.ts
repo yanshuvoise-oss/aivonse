@@ -9,7 +9,8 @@ export async function POST(request: Request) {
   try {
     // Verify admin access
     const cookieStore = await cookies();
-    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "";
+    const rawSupabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "";
+    const supabaseUrl = rawSupabaseUrl.replace(/\/rest\/v1\/?$/, '');
     const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || "";
     const authClient = createServerClient(supabaseUrl, supabaseAnonKey, {
       cookies: {

@@ -10,9 +10,11 @@ export async function DELETE(req: NextRequest) {
 
     const token = authHeader.replace("Bearer ", "");
     
+    const supabaseUrl = (process.env.NEXT_PUBLIC_SUPABASE_URL || '').replace(/\/rest\/v1\/?$/, '');
+
     // Validate token with regular anon client
     const supabaseUserClient = createClient(
-      process.env.NEXT_PUBLIC_SUPABASE_URL!,
+      supabaseUrl,
       process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
     );
     
@@ -26,7 +28,7 @@ export async function DELETE(req: NextRequest) {
 
     // Use admin client to bypass RLS and perform full deletion
     const supabaseAdmin = createClient(
-      process.env.NEXT_PUBLIC_SUPABASE_URL!,
+      supabaseUrl,
       process.env.SUPABASE_SERVICE_ROLE_KEY!
     );
 

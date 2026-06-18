@@ -6,7 +6,8 @@ import { cookies } from "next/headers";
 export async function PATCH(request: Request) {
   try {
     const serviceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
-    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+    const rawSupabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
+    const supabaseUrl = rawSupabaseUrl.replace(/\/rest\/v1\/?$/, '');
 
     if (!serviceRoleKey || !supabaseUrl) {
       return NextResponse.json({ error: "Missing service role key" }, { status: 500 });

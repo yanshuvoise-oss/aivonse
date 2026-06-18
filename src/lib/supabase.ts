@@ -2,7 +2,8 @@ import { createClient } from '@supabase/supabase-js';
 import { createBrowserClient } from '@supabase/ssr';
 
 // Environment variables
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
+const rawSupabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
+const supabaseUrl = rawSupabaseUrl.replace(/\/rest\/v1\/?$/, '');
 const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || '';
 
 const DEV_MODE_DISABLE_AUTH = process.env.NEXT_PUBLIC_DEV_MODE_DISABLE_AUTH === 'true';
