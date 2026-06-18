@@ -1,0 +1,51 @@
+
+> aivones@0.1.0 dev
+> next dev --turbopack -p 3004
+
+   ▲ Next.js 15.5.18 (Turbopack)
+   - Local:        http://localhost:3004
+   - Network:      http://10.167.235.122:3004
+   - Environments: .env.local
+
+ ✓ Starting...
+ ○ Compiling middleware ...
+ ✓ Compiled middleware in 4.6s
+ ✓ Ready in 15s
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 29.3s
+ GET /dashboard 200 in 34754ms
+ ○ Compiling / ...
+ ✓ Compiled / in 10.7s
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/voise/Desktop/aivones/.next/static/development/_buildManifest.js.tmp.0qstqk1blyg'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/voise/Desktop/aivones/.next/static/development/_buildManifest.js.tmp.0qstqk1blyg'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 18s
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/voise/Desktop/aivones/.next/static/development/_buildManifest.js.tmp.2ljb42ii51n'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/voise/Desktop/aivones/.next/static/development/_buildManifest.js.tmp.2ljb42ii51n'
+}
+[Error: ENOENT: no such file or directory, open '/Users/voise/Desktop/aivones/.next/static/development/_buildManifest.js.tmp.0qstqk1blyg'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/voise/Desktop/aivones/.next/static/development/_buildManifest.js.tmp.0qstqk1blyg'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/voise/Desktop/aivones/.next/static/development/_buildManifest.js.tmp.5lxmh7fbgt9'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/voise/Desktop/aivones/.next/static/development/_buildManifest.js.tmp.5lxmh7fbgt9'
+}
+[Error: ENOENT: no such file or directory, open '/Users/voise/Desktop/aivones/.next/static/development/_buildManifest.js.tmp.vsjzyina6y8'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/voise/Desktop/aivones/.next/static/development/_buildManifest.js.tmp.vsjzyina6y8'
+}
+ ✓ Compiled in 12.4s

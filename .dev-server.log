@@ -1,0 +1,215 @@
+
+> aivones@0.1.0 dev
+> next dev
+
+   ▲ Next.js 15.5.18
+   - Local:        http://localhost:3000
+   - Network:      http://10.167.235.122:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 6.5s
+ ○ Compiling /middleware ...
+ ✓ Compiled /middleware in 995ms (170 modules)
+ ○ Compiling /unauthorized ...
+ ✓ Compiled /unauthorized in 10.2s (648 modules)
+ ○ Compiling / ...
+ ✓ Compiled / in 3.7s (814 modules)
+ GET / 200 in 4809ms
+ ○ Compiling /[username] ...
+ ✓ Compiled /[username] in 2.8s (847 modules)
+ GET /apple-touch-icon-precomposed.png 200 in 5165ms
+ GET /apple-touch-icon.png 200 in 351ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 2.4s (872 modules)
+ GET /dashboard 200 in 2688ms
+ ○ Compiling /api/coupons/redeem ...
+ ✓ Compiled /api/coupons/redeem in 1317ms (951 modules)
+ GET /api/coupons/redeem 200 in 2379ms
+ GET /api/coupons/redeem 200 in 2267ms
+ ○ Compiling /dashboard/images ...
+ ✓ Compiled /dashboard/images in 539ms (976 modules)
+ GET /dashboard/images 200 in 891ms
+ ○ Compiling /dashboard/documents ...
+ ✓ Compiled /dashboard/documents in 1109ms (985 modules)
+ GET /dashboard/documents 200 in 1603ms
+ GET /dashboard/documents 200 in 152ms
+ GET /dashboard/images 200 in 171ms
+ ○ Compiling /dashboard/pdfs ...
+ ✓ Compiled /dashboard/pdfs in 4s (892 modules)
+ GET /dashboard/pdfs 200 in 4627ms
+ ○ Compiling /dashboard/links ...
+ ✓ Compiled /dashboard/links in 1154ms (904 modules)
+ GET /dashboard/links 200 in 1463ms
+ GET /dashboard 200 in 85ms
+ GET /dashboard/links 200 in 61ms
+ ✓ Compiled /[username] in 398ms (544 modules)
+ GET /sr2477529_4211f3 200 in 1753ms
+ ○ Compiling /dashboard/settings ...
+ ✓ Compiled /dashboard/settings in 3.4s (916 modules)
+ GET /dashboard/settings 200 in 3816ms
+ GET /dashboard/settings 200 in 109ms
+ ○ Compiling /dashboard/analytics ...
+ ✓ Compiled /dashboard/analytics in 1392ms (933 modules)
+ GET /dashboard/analytics 200 in 1819ms
+ ✓ Compiled /dashboard/images in 419ms (551 modules)
+ GET /dashboard/images 200 in 666ms
+ GET /dashboard 200 in 89ms
+ ○ Compiling /dashboard/documents ...
+ ✓ Compiled /dashboard/documents in 5.7s (936 modules)
+ GET /dashboard/smart-links 200 in 6502ms
+ GET /dashboard/images 200 in 4865ms
+ GET /dashboard/documents 200 in 5869ms
+ GET /dashboard/documents 200 in 6505ms
+ ✓ Compiled in 3.7s (399 modules)
+ GET /dashboard/images 200 in 183ms
+ GET /sr2477529_4211f3 200 in 715ms
+ ✓ Compiled in 4.2s (1106 modules)
+ GET /dashboard/images 200 in 2950ms
+ GET /sr2477529_4211f3 200 in 2830ms
+ GET /dashboard/images 200 in 170ms
+ GET /sr2477529_4211f3 200 in 363ms
+ ✓ Compiled in 9.9s (937 modules)
+Error: fetch failed
+    at context.fetch (/Users/voise/Desktop/aivones/node_modules/next/dist/server/web/sandbox/context.js:321:60)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/helpers.js:121:25)
+    at _handleRequest (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:122:24)
+    at _request (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/lib/fetch.js:112:24)
+    at eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:2512:82)
+    at SupabaseAuthClient._useSession (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:2329:26)
+    at async SupabaseAuthClient._getUser (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:2502:20)
+    at async eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:2486:20)
+    at async eval (webpack-internal:///(middleware)/./node_modules/@supabase/auth-js/dist/module/GoTrueClient.js:2274:28) {
+  
+}
+ GET /sr2477529_4211f3 200 in 1036ms
+ ○ Compiling /api/coupons/redeem ...
+ ✓ Compiled /api/storage/upload in 2.9s (616 modules)
+ ✓ Compiled in 1367ms (385 modules)
+ GET /dashboard/images 200 in 5485ms
+ GET /api/coupons/redeem 200 in 5884ms
+ POST /api/storage/upload 200 in 4238ms
+ POST /api/storage/upload 200 in 11466ms
+ ✓ Compiled /dashboard/documents in 483ms (624 modules)
+ GET /dashboard/documents 200 in 1021ms
+ GET /dashboard/images 200 in 84ms
+ GET /dashboard/documents 200 in 92ms
+ ○ Compiling /dashboard/pdfs ...
+ ✓ Compiled /dashboard/pdfs in 3.2s (630 modules)
+ GET /dashboard/pdfs 200 in 3592ms
+ GET /dashboard/documents 200 in 96ms
+ ○ Compiling /dashboard/links ...
+ ✓ Compiled /dashboard/links in 1520ms (608 modules)
+ GET /dashboard/links 200 in 2106ms
+ GET /dashboard/links 200 in 101ms
+ POST /api/storage/upload 200 in 11975ms
+ GET /dashboard/documents 200 in 73ms
+ POST /api/storage/upload 200 in 12504ms
+ GET /dashboard/images 200 in 139ms
+ GET /dashboard/documents 200 in 59ms
+ POST /api/storage/upload 200 in 1523ms
+ ○ Compiling /dashboard/smart-links ...
+ ✓ Compiled /dashboard/smart-links in 5s (602 modules)
+ GET /dashboard/smart-links 200 in 6224ms
+ GET /dashboard/smart-links 200 in 560ms
+ GET /dashboard/images 200 in 121ms
+ ○ Compiling /dashboard/pdfs ...
+ ✓ Compiled /dashboard/pdfs in 721ms (537 modules)
+ GET /dashboard/pdfs 200 in 2988ms
+ ○ Compiling /api/storage/upload ...
+ ✓ Compiled /api/storage/upload in 2.6s (597 modules)
+ POST /api/storage/upload 200 in 4306ms
+ ○ Compiling /dashboard/links ...
+ ✓ Compiled /dashboard/links in 902ms (604 modules)
+ GET /dashboard/links 200 in 1393ms
+ GET /dashboard/links 200 in 96ms
+ GET /dashboard 200 in 512ms
+ GET /dashboard/smart-links 200 in 291ms
+ ○ Compiling /dashboard/profile ...
+ ✓ Compiled /dashboard/analytics in 17.8s (941 modules)
+ GET /dashboard/analytics 200 in 10111ms
+ GET /dashboard/analytics 200 in 17484ms
+ GET /dashboard/profile 200 in 20321ms
+ GET /dashboard/analytics 200 in 1422ms
+ GET /dashboard/analytics 200 in 973ms
+ GET /sr2477529_4211f3 200 in 1018ms
+ GET /dashboard/analytics 200 in 661ms
+ ○ Compiling /api/coupons/redeem ...
+ ✓ Compiled /api/coupons/redeem in 8.1s (614 modules)
+ GET /api/coupons/redeem 200 in 11445ms
+ ○ Compiling /dashboard/smart-links ...
+ ✓ Compiled /dashboard/smart-links in 2.5s (621 modules)
+ GET /dashboard/smart-links 200 in 5025ms
+ ○ Compiling /dashboard/documents ...
+ ✓ Compiled /dashboard/documents in 11s (543 modules)
+ GET /dashboard/documents 200 in 13679ms
+ GET /dashboard/documents 200 in 13744ms
+ GET /dashboard 200 in 526ms
+ GET /dashboard/links 200 in 348ms
+ ○ Compiling /dashboard/pdfs ...
+ ✓ Compiled /dashboard/pdfs in 4.8s (549 modules)
+ GET /dashboard/pdfs 200 in 6872ms
+ GET /dashboard/pdfs 200 in 656ms
+ GET /dashboard/smart-links 200 in 852ms
+ ○ Compiling /dashboard/profile ...
+ ✓ Compiled /dashboard/profile in 10.5s (546 modules)
+ GET /dashboard/profile 200 in 12254ms
+ GET /dashboard 200 in 554ms
+ GET /dashboard/links 200 in 354ms
+ GET /dashboard/pdfs 200 in 471ms
+ ○ Compiling /dashboard/images ...
+ ✓ Compiled /dashboard/images in 3.8s (539 modules)
+ GET /dashboard/images 200 in 4668ms
+ ○ Compiling /dashboard/documents ...
+ ✓ Compiled /dashboard/documents in 2s (545 modules)
+ GET /dashboard/documents 200 in 2743ms
+ GET /dashboard/documents 200 in 130ms
+ GET /dashboard/documents 200 in 152ms
+ GET /dashboard/profile 200 in 140ms
+ ○ Compiling /dashboard/settings ...
+ ✓ Compiled /dashboard/settings in 2.5s (555 modules)
+ GET /dashboard/settings 200 in 3076ms
+ ○ Compiling /dashboard/analytics ...
+ ✓ Compiled /dashboard/analytics in 3.8s (565 modules)
+ GET /dashboard/analytics 200 in 4235ms
+ GET /dashboard/analytics 200 in 2382ms
+ ○ Compiling /api/coupons/redeem ...
+ ✓ Compiled /api/coupons/redeem in 5.6s (613 modules)
+ GET /api/coupons/redeem 200 in 7992ms
+ ○ Compiling / ...
+ ✓ Compiled / in 4.3s (548 modules)
+ ⨯ [Error [InvariantError]: Invariant: Expected clientReferenceManifest to be defined. This is a bug in Next.js.]
+ ⨯ [Error [InvariantError]: Invariant: Expected clientReferenceManifest to be defined. This is a bug in Next.js.] {
+  page: '/'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 7.8s (1285 modules)
+ GET / 500 in 14693ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 1039ms (759 modules)
+ GET /favicon.ico 200 in 1723ms
+ ○ Compiling /unauthorized ...
+ ✓ Compiled /unauthorized in 1338ms (767 modules)
+ GET /unauthorized 200 in 2086ms
+ GET /favicon.ico 200 in 108ms
+ GET /unauthorized 200 in 141ms
+ GET /unauthorized 200 in 160ms
+ GET /favicon.ico 200 in 29ms
+ ○ Compiling /admin ...
+ ✓ Compiled /admin in 19.7s (2311 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET /admin 200 in 23612ms
+ ○ Compiling / ...
+ ✓ Compiled / in 1978ms (1251 modules)
+ GET / 200 in 4871ms
+ GET / 200 in 238ms
+ GET / 200 in 234ms
+ GET / 200 in 273ms
+ GET / 200 in 287ms
+ GET /dashboard 200 in 196ms
+ GET /dashboard 200 in 119ms
+ GET / 200 in 432ms
+ ✓ Compiled in 13.4s (1789 modules)
+ ✓ Compiled in 6.4s (1789 modules)
+ ✓ Compiled in 1539ms (1789 modules)
+ ✓ Compiled in 5.1s (1060 modules)
